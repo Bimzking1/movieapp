@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+<img src="./src/assets/tmdb.png" width="300">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
+#### Netlify: ***https://bimo-movieapp.netlify.app/***
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Clone:
+- Copy repository or download the code
+- npm install
+- npm run dev
 
-## Expanding the ESLint configuration
+## **Tech Stack**
+- React Typescript sebagai library
+- Tailwind untuk styling dan layouting
+- API dari *https://developer.themoviedb.org/reference/intro/getting-started*
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### **Library Tambahan**
+- Axios
+- React Router
+- React Icons
+- React Toastify
+- React Slick (Carousel)
 
-- Configure the top-level `parserOptions` property like this:
+## **Preview**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+#### Home Page
+<img src="./src/assets/home.png" width="100%">
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+#### Products Page
+<img src="./src/assets/profile.png" width="100%">
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Contact:
+- Email: paulbimos@gmail.com
+- WhatsApp: 087840758430
