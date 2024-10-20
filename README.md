@@ -26,7 +26,7 @@
 #### Home Page
 <img src="./src/assets/home.png" width="100%">
 
-#### Products Page
+#### Profile Page
 <img src="./src/assets/profile.png" width="100%">
 
 ### Contact:
